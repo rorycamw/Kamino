@@ -73,6 +73,9 @@ var ProductComponent = (function () {
     ProductComponent.prototype.ngOnInit = function () {
         console.log("In OnInit");
     };
+    ProductComponent.prototype.onRatingClicked = function (message) {
+        this.pageTitle = 'List of orders: ' + message;
+    };
     return ProductComponent;
 }());
 ProductComponent = __decorate([
