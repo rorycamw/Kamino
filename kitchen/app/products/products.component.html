@@ -48,7 +48,9 @@
                     <td>{{product.releaseDate}}</td>
                     <td>{{product.price | currency: 'USD' : true : '1.2-2' | lowercase}}</td>
                     <td>
-                        <kamino></kamino>
+                        <kamino [rating] = 'product.starRating'
+                            (ratingClicked)= 'onRatingClicked($event)'>
+                        </kamino>
                     </td>
                 </tr>
 
