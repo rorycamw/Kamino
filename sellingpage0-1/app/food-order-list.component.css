@@ -1,0 +1,26 @@
+.container {
+  background-color: white;
+  width: 900px;
+  height: 200px;
+  position: absolute;
+  margin-top: 700px;
+  margin-left: 400px;
+  position: fixed;
+  z-index: 2;
+  border-radius: 8px;
+  opacity: 0.8;
+}
+.ds-btn li{ 
+  list-style:none;
+  float:left; 
+  padding:5px; 
+  }
+.ds-btn li span{
+  padding-left:15px;
+  padding-right:5px;width:100%;
+  display:inline-block; 
+  text-align:left;}
+.ds-btn li span {
+  width:100%; 
+  display:inline-block; 
+  text-align:left;}

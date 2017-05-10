@@ -1,21 +1,18 @@
-import { Component, Input } from '@angular/core';
+export class FoodItemService {
+  get(){
+    return this.foodItems;
+  }
+  add(foodItems){
+    this.foodItems.push(foodItems);
+  }
+  delete(foodItems){
+    let index = this.foodItems.indexOf(foodItems);
+    if(index >= 0) {
+      this.foodItems.splice(index, 1);
+    }
 
-@Component({
-  selector: 'mw-app',
-  templateUrl: 'app/app.component.html',
-  styleUrls: ['app/app.component.css']
-})
-export class AppComponent {
-  addeditemArray =[];
-haha(event){
-  this.addeditemArray.push(event);
-  console.log(event);
-}
-
-
-
-
-  foodItems = [
+  }
+    foodItems = [
     {
       id: 1,
       name: "Acklay Roast ",
@@ -90,4 +87,5 @@ haha(event){
       description: ""
     }
   ];
+  
 }

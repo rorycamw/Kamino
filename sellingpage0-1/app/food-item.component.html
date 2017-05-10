@@ -12,6 +12,7 @@
 </ul>
 <h2>{{itemList.name}}</h2>
 <div class="price">Price: ${{itemList.price}}</div>
-<button class="button" style="vertical-align:middle">
+<button class="button" style="vertical-align:middle" (click)="addInList(itemList.name,itemList.price,totalOrder)">
   <span>Add </span>
 </button>
+
