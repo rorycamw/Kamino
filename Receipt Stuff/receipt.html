@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Kamino Restaurant - Receipt</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--<script src="node_modules/core-js/client/shim.min.js"></script>
+      <script src="node_modules/zone.js/dist/zone.js"></script>
+      <script src="node_modules/reflect-metadata/Reflect.js"></script>
+      <script src="node_modules/systemjs/dist/system.src.js"></script>
+      <script src="systemjs.config.js"></script>
+      <link href="resets.css" rel="stylesheet">-->
+      <style>
+          body {
+              margin: 0px;
+              padding: 0px;
+              background-color: #ffffcc;
+          }
+          #original {
+              outline-style: solid;
+          }
+          .hor_sep {
+              outline-style: 1px solid black;
+          }
+          td {
+              outline-style: 1px solid black;
+              text-align: center;
+              width: 300px;
+          }
+          .bold {
+              text-align: left;
+          }
+          .info {
+              text-align: left;
+          }
+          .transaction {
+              text-align: left;
+          }
+      </style>
+      <script>
+            System.import('app').catch(function(err){ console.error(err); });
+    </script>
+    </head>
+    <body>
+      <table id="original">
+          <tr class="hor_sep">
+              <td><h2>Receipt</h2></td>
+          </tr>
+          <tr class="hor_sep">
+              <td class="info"><h3>Kamino Restaurant</h3></td>
+          </tr>
+          <tr class="hor_sep">
+              <td class="transaction">Transaction Number:</td>
+          </tr>
+          <tr class="hor_sep">
+              <td class="transaction">Transaction Date:</td>
+          </tr>
+          <tr>
+              <td><i>Need payment output for this section</i></td>
+          </tr>
+          <tr>
+              <td><i>Need payment output for this section</i></td>
+          </tr>
+          <tr class="hor_sep">
+              <td class="bold"><b>Subtotal:</b></td>
+          </tr>
+          <tr class="hor_sep">
+              <td class="bold"><b>Tax:</b></td>
+          </tr>
+          <tr class="hor_sep">
+              <td class="bold"><b>Total:</b></td>
+          </tr>
+        </table>
+        
+        <h1>Dummy Table</h1>
+        <table align="center">
+          <tr class="hor_sep">
+              <td><h2>Receipt</h2></td>
+          </tr>
+          <tr class="hor_sep">
+              <td class="info"><h3>Kamino Restaurant</h3></td>
+          </tr>
+          <tr>
+              <td class="transaction">Transaction Number:</td>
+          </tr>
+          <tr>
+              <td class="transaction">Transaction Date:</td>
+          </tr>
+          <tr>
+              <td><i>Need payment output for this section</i></td>
+          </tr>
+          <tr>
+              <td><i>Need payment output for this section</i></td>
+          </tr>
+          <tr>
+              <td class="bold"><b>Subtotal:</b></td>
+          </tr>
+          <tr>
+              <td class="bold"><b>Tax:</b></td>
+          </tr>
+          <tr>
+              <td class="bold"><b>Total:</b></td>
+          </tr>
+        </table>
+    </body>
+</html>

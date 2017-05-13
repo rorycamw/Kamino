@@ -10,6 +10,7 @@ import { FoodOrderListComponent } from './food-order-list.component';
 import { AboutPageComponent } from './about-page.component';
 import { routing } from './app.routing';
 import { ProductPageComponent } from './product-page.component';
+import { TestComponent } from './test/promotion.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { ProductPageComponent } from './product-page.component';
     SidebarComponent,
     FoodOrderListComponent,
     AboutPageComponent,
-    ProductPageComponent
+    ProductPageComponent,
+    TestComponent
   ],
   providers: [
     FoodItemService
