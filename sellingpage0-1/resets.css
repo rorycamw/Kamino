@@ -18,3 +18,7 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+#bottom{
+    width: 500px;
+    height: 300px;
+}
