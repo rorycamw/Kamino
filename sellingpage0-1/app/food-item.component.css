@@ -1,28 +1,28 @@
 :host {
   display: flex;
   flex-direction: column;
-  width: 310px;
-  height: 300px;
+  width: 265px;
+  height: 430px;
   border: 1px solid transparent;
   border-radius: 7px;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  background-color: #083e4b;
+  background-color: #F9FCFF;
   padding: 5px;
-  color: #bdc2c5;
   float: left;
   margin-left: 32px;
 	margin-bottom: 10px;
-	float: left;
+
 }
 h2 {
-  font-size: 1.6em;
-  flex: 1;
-  font-family: "Inknut Antiqua";
-  color: #bdc2c5;
+  font-size: 1.5em;
+  flex: 0.3;
+  font-family: "monospace";
+  color: black;
+  margin-top: -5px;
 }
 img {
-  width: 300px;
-  height: 200px;
+  width: 250px;
+  height: 300px;
 
 }
 .tools {
@@ -33,52 +33,72 @@ img {
 }
 .price {
   font-family: "Inknut Antiqua";
-  color: #bdc2c5;
-}
-
-.button {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #b3c2bf;
-  border: none;
   color: black;
-  text-align: center;
-  font-size: 28px;
-  width: 100px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-  height:30px;
-  margin-left: 80px;
+  font-size: 1.5em;
 }
 
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-  font-size: 25px;
-  font-family: "Abril Fatface";
-
+.btn {
+    border: none;
+    font-family: inherit;
+    font-size: 1.5em;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border-radius:0px;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
-.button:hover span {
-  padding-right: 25px;
+.btn-1 {
+    border: 3px solid #fff;
+    color: #fff;    border: 3px solid #fff;
 }
 
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
+/*BUTTON 1e css=============*/
+.btn-1e:after {
+    width: 100%;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
 }
+
+.btn-1e:hover, .btn-1e:active {
+    color: #0e83cd;
+}
+
+.btn-1e {
+    overflow: hidden;
+}
+
+.btn-1e:hover:after {
+    height: 260%;
+    opacity: 1;
+}
+
 .caption-style li{
 	float: left;
 	padding: 0px;
@@ -135,14 +155,14 @@ img {
 .caption-style .caption-text h1{
 	text-transform: uppercase;
 	font-size: 18px;
-	font-family: "Inknut Antiqua";
+	font-family: "sans-serif";
 }
 .caption-style .caption-text{
 	z-index: 10;
 	color: #fff;
 	position: absolute;
 	width: 300px;
-	font-family: "Inknut Antiqua";
+	font-family: "sans-serif";
 	text-align: center;
 	top:10px;
 }

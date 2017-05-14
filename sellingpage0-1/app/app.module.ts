@@ -9,9 +9,9 @@ import { FoodItemService } from './food-item.service';
 import { FoodOrderListComponent } from './food-order-list.component';
 import { AboutPageComponent } from './about-page.component';
 import { routing } from './app.routing';
-import { ProductPageComponent } from './product-page.component';
+// import { ProductPageComponent } from './product-page.component';
 import { TestComponent } from './test/promotion.component';
-
+import { RayComponent } from './test2/ray.component';
 
 @NgModule({
   imports: [
@@ -25,8 +25,9 @@ import { TestComponent } from './test/promotion.component';
     SidebarComponent,
     FoodOrderListComponent,
     AboutPageComponent,
-    ProductPageComponent,
-    TestComponent
+    // ProductPageComponent,
+    TestComponent,
+    RayComponent
   ],
   providers: [
     FoodItemService

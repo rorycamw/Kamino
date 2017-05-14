@@ -1,9 +1,11 @@
-:host {
+/*:host {
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 50px;
   overflow: auto;
+  background-color: white;
 }
+
 sd-bar {
   background-color: #002b36;
   margin-top: 50px;
@@ -20,9 +22,9 @@ fd-od-list{
 
 }
 .middle{
-  width: 100vw;
+  width: 80vw;
   height: auto;
-  background-color: #002b36;
+  background-color: white;
   overflow: auto;
   align-items: center;
   padding-bottom: 800px;
@@ -45,7 +47,7 @@ fd-od-list{
    height:500px;
    background-color: #002b36;
 }
-h3{
+#f-h3{
   color: #bdc2c5;
   font-size: 100px;
-}
+}*/
