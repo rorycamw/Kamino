@@ -1,20 +1,18 @@
-import { Component, Input } from '@angular/core';
+export class FoodListService {
+  get(){
+    return this.foodItems;
+  }
+  add(foodItems){
+    this.foodItems.push(foodItems);
+  }
+  delete(foodItems){
+    let index = this.foodItems.indexOf(foodItems);
+    if(index >= 0) {
+      this.foodItems.splice(index, 1);
+    }
 
-@Component({
-  selector:'ray-app',
-  templateUrl:'app/test2/ray.component.html',
-  styleUrls:['app/test2/ray.component.css','app/test2/ray.component2.css','app/test2/ray.component3.css']
-})
-
-export class RayComponent{
-  addeditemArray =[];
-  haha(event){
-  this.addeditemArray.push(event);
-  console.log(event);
-}
-
-
-  foodItems = [
+  }
+    foodItems = [
     {
       id: 1,
       name: "Acklay Roast ",
@@ -89,4 +87,5 @@ export class RayComponent{
       description: ""
     }
   ];
+  
 }

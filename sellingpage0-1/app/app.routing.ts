@@ -1,16 +1,14 @@
 import { Routes, RouterModule } from '@angular/router';
 
-import { AboutPageComponent } from './about-page.component';
-// import { ProductPageComponent } from './product-page.component';
-import { TestComponent } from './test/promotion.component';
-import { RayComponent } from './test2/ray.component';
+import { AboutPageComponent } from './about-page/about-page.component';
+import { PromotionPageComponent } from './promotion-page/promotion-page.component';
+import { MenuPageComponent } from './menu-page/menu-page.component';
 
 
 const appRoutes: Routes = [
   { path: 'about', component: AboutPageComponent},
-  // { path: 'product', component:ProductPageComponent},
-  { path: 'promotion', component:TestComponent },
-  { path: 'test', component:RayComponent },
+  { path: 'promotion', component:PromotionPageComponent },
+  { path: 'menu', component:MenuPageComponent },
   { path: '', component:AboutPageComponent }
 ];
 

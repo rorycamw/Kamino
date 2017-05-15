@@ -3,15 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { FoodItemComponent } from './food-item.component';
-import { SidebarComponent } from './sidebar.component';
-import { FoodItemService } from './food-item.service';
-import { FoodOrderListComponent } from './food-order-list.component';
-import { AboutPageComponent } from './about-page.component';
+import { FoodListComponent } from './menu-page/food-list-section/food-list.component';
+import { SidebarComponent } from './menu-page/sidebar-section/sidebar.component';
+import { FoodListService } from './menu-page/food-list-section/food-list.service';
+import { OrderListComponent } from './menu-page/order-list-section/order-list.component';
+import { AboutPageComponent } from './about-page/about-page.component';
 import { routing } from './app.routing';
-// import { ProductPageComponent } from './product-page.component';
-import { TestComponent } from './test/promotion.component';
-import { RayComponent } from './test2/ray.component';
+import { PromotionPageComponent } from './promotion-page/promotion-page.component';
+import { MenuPageComponent } from './menu-page/menu-page.component';
 
 @NgModule({
   imports: [
@@ -21,16 +20,15 @@ import { RayComponent } from './test2/ray.component';
     ],
   declarations: [
     AppComponent,
-    FoodItemComponent,
+    FoodListComponent,
     SidebarComponent,
-    FoodOrderListComponent,
+    OrderListComponent,
     AboutPageComponent,
-    // ProductPageComponent,
-    TestComponent,
-    RayComponent
+    PromotionPageComponent,
+    MenuPageComponent
   ],
   providers: [
-    FoodItemService
+    FoodListService
   ],
   bootstrap: [
     AppComponent

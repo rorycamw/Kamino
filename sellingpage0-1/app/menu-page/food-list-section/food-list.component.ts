@@ -2,10 +2,10 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'mw-food-item',
-  templateUrl: 'app/food-item.component.html',
-  styleUrls: ['app/food-item.component.css']
+  templateUrl: 'app/menu-page/food-list-section/food-list.component.html',
+  styleUrls: ['app/menu-page/food-list-section/food-list.component.css']
 })
-export class FoodItemComponent {
+export class FoodListComponent {
   @Input() itemList;
   @Output() search = new EventEmitter();
 

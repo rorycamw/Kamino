@@ -1,18 +1,22 @@
-export class FoodItemService {
-  get(){
-    return this.foodItems;
-  }
-  add(foodItems){
-    this.foodItems.push(foodItems);
-  }
-  delete(foodItems){
-    let index = this.foodItems.indexOf(foodItems);
-    if(index >= 0) {
-      this.foodItems.splice(index, 1);
-    }
+import { Component, Input } from '@angular/core';
 
-  }
-    foodItems = [
+@Component({
+  selector:'ray-app',
+  templateUrl:'app/menu-page/menu-page.component.html',
+  styleUrls:['app/menu-page/menu-page.component.css',
+            'app/menu-page/menu-page.component2.css',
+            'app/menu-page/menu-page.component3.css']
+})
+
+export class MenuPageComponent{
+  addeditemArray =[];
+  haha(event){
+  this.addeditemArray.push(event);
+  console.log(event);
+}
+
+
+  foodItems = [
     {
       id: 1,
       name: "Acklay Roast ",
@@ -87,5 +91,4 @@ export class FoodItemService {
       description: ""
     }
   ];
-  
 }
