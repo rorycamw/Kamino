@@ -14,7 +14,7 @@
     "lite": "lite-server",
     "prestart": "npm run clean",
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
-    "test": "./node_modules/jshint/bin/jshint hello.js ./app/app.component.js"
+    "test": "./node_modules/jshint/bin/jshint hello.js ./app/hello.js"
   },
   "dependencies": {
     "@angular/common": "2.0.0",
