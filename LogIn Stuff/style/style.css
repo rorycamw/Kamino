@@ -1,0 +1,25 @@
+#logo {
+    float: left;
+}
+
+#top {
+    float: left;
+    width: 100%;
+    height: 90px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 1000px;
+    line height: 1000px;
+}
+
+#logindiv {
+    margin: 0 auto;
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    vertical-align: middle;
+}
