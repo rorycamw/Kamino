@@ -1,0 +1,13 @@
+.menuBarItems{
+    display: inline-block;
+}
+img {
+  width: 10px;
+  height: 10px;
+}
+h3{
+    font-size: 2em;
+    flex: 1;
+    font-family: "Inknut Antiqua";
+    color: #bdc2c5;
+}
