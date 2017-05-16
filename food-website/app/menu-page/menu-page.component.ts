@@ -64,28 +64,28 @@ export class MenuPageComponent{
     {
       id: 7,
       name: "Fried Demonsquid",
-      picture:"food/f11.png",
+      picture:"sides/frieddemonsquid.png",
       price:3500,
       category: "",
       description: ""
     }, {
       id: 8,
       name: "Kalaide Soup",
-      picture:"food/f12.png",
+      picture:"sides/kalaidesoup.png",
       price:3500,
       category: "",
       description: ""
     }, {
       id: 9,
       name: "Steamed Basalt Clams",
-      picture:"food/f13.png",
+      picture:"sides/steamedbasaltclams.png",
       price:3500,
       category: "",
       description: ""
     }, {
       id: 10,
       name: "Octowhale Egg Drop Soup",
-      picture:"food/f14.png",
+      picture:"sides/octowhaleeggdropsoup.png",
       price:3500,
       category: "",
       description: ""
