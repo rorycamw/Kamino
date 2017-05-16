@@ -20,7 +20,7 @@ export class MenuPageComponent{
     {
       id: 1,
       name: "Acklay Roast ",
-      picture:"food/f1.png",
+      picture:"food/acklayroast.png",
       price:3500,
       category: "",
       description: "The Acklay is the creature that Obi-Wan Kenobi killed in the Petranaki arena on Geonosia. Marinated in a blend of Geonosian spice, the Acklay is then slow roasted, basting in Ewok gravy"
@@ -28,35 +28,35 @@ export class MenuPageComponent{
     {
       id: 2,
       name: "Aiwha Medley Hotpot",
-      picture:"food/f2.png",
+      picture:"food/aiwhamedleyhotpot.png",
       price:3500,
       category: "",
       description: ""
     }, {
       id: 3,
       name: "Fried Chiaki",
-      picture:"food/f3.png",
+      picture:"sides/friedchiaki.png",
       price:3500,
       category: "",
       description: ""
     }, {
       id: 4,
       name: "Chiilak Prime Rib ",
-      picture:"food/f4.png",
+      picture:"food/chiilakprimerib.png",
       price:3500,
       category: "",
       description: ""
     }, {
       id: 5,
       name: "Cahuamanta ",
-      picture:"food/f5.png",
+      picture:"sides/cahuamanta.png",
       price:3500,
       category: "",
       description: ""
     }, {
       id: 6,
       name: "Blarth Ribs",
-      picture:"food/f10.png",
+      picture:"food/blarthribs.png",
       price:3500,
       category: "",
       description: ""
