@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component ({
-  selector:'test-app',
+  selector:'promo-app',
   templateUrl:'app/promotion-page/promotion-page.component.html',
   styleUrls:['app/promotion-page/promotion-page.component.css']
 })
