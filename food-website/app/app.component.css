@@ -9,7 +9,8 @@ h3{
     font-size: 2em;
     flex: 1;
     font-family: "Inknut Antiqua";
-    color: #bdc2c5;
+    color: black
+	;
 }
 
 .navbar {
