@@ -107,3 +107,13 @@ input[type="submit"] {
     background: steelblue;
     color:white;
 }
+/* footer styles */
+.foot {
+  text-align: center;
+  color: white;
+}
+
+footer {
+  background-color: #7a7f82;
+  height: 100px;
+}
