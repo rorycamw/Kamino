@@ -9,5 +9,17 @@ import { FoodListComponent } from '../food-list-section/food-list.component';
 })
 
 export class OrderListComponent {
-  @Input() namefoodArray;
+  @Input() namefoodArray:Array<Object>;
+  orderedFoodArray:Array<Object>;
+
+  sendArray(){
+    console.log(this.namefoodArray);
+    for (var _i = 0; _i < this.namefoodArray.length; _i++) {
+    console.log(this.namefoodArray[_i]);
+    this.orderedFoodArray.push(this.namefoodArray[_i]);
+}
+
+
+
+  }
 }

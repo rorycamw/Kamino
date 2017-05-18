@@ -16,11 +16,12 @@ export class FoodListComponent {
   
   
 
-  addInList(foodname: string,foodprice: number, total:number){
+  addInList(foodname: string,foodprice: number, total:number, id:number){
     this.totalOrder++;
     this.addedItem={
       name:foodname,
       price:foodprice,
+      food_id:id,
       totalOrder:total
     }
     
