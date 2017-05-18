@@ -1,15 +1,15 @@
 /*<div class = "menubar" data-activeslide="1">
-    <div class="column">
+    <div class="column" id="divOne">
         <div id="logo">
             <img src="images/Starwars.png" alt=""/>
         </div>
     </div>
-    <div class="column">
+    <div class="column" id="divTwo">
         <div id="planet">
-            <h3>Kamino Kanteen</h3>
+            <h4>Kamino Kanteen</h4>
         </div>
     </div>
-    <div class="column">
+    <div class="column" id="divThree">
         <div class="navbar">
             <nav>
                 <a id="home-link" routerLink="" routerLinkActive="active">Home</a>
@@ -23,17 +23,39 @@
 </div>*/
 
 .column{
-	display:inline-block;
+	/*display:inline-block;*/
 }
 .menubar{
-	background-color:#ffffff;
+	background-color:lightblue;
 }
+
+#divOne{
+    text-align:center;
+    background-color:green;
+    width:10%;
+    margin-left:5%
+}
+#divTwo{
+    text-align:center;
+    background-color:pink;
+    width:10%;
+    margin-left:20%
+}
+#divThree{
+    text-align:center;
+    background-color:yellow;
+    width:40%;
+    margin-left:60%
+}
+.partyDiv{
+    display:inline-block;
+}
+
 img{
-    width: 100px;
-    height: 100px;
+    width: 3vw;
+    height: 3vw;
 }
-h3{
-    font-size: 2em;
+h4{
     flex: 1;
     font-family: "Inknut Antiqua";
     color: black;
@@ -50,9 +72,9 @@ h3{
 	display:block;
 	color:black;
 	text-align:center;
-	padding:14px 16px;
+	padding:14px 10px;
 	text-decoration:none;
-	font-size:17px;
+	font-size:15px;
 }
 .navbar a:hover{
 	background-color:#ddd;
