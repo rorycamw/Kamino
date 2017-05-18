@@ -8252,3 +8252,14 @@ a > img.fh5co-align-center {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* footer styles */
+.foot {
+  text-align: center;
+  color: white;
+}
+
+footer {
+  background-color: #7a7f82;
+  height: 100px;
+}
