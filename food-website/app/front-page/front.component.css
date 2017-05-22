@@ -1,0 +1,26 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #333333;
+  background-color: #fff;
+  /*background-image: url('images/starwars1.gif');
+  background-size: cover;*/
+}
+/* footer styles */
+.foot {
+  text-align: center;
+  color: white;
+}
+#randomDiv{
+    width:100%;
+    height:5px;
+    background-color:#FFF;
+}
+
+
+
+footer {
+  background-color: #7a7f82;
+  height: 100px;
+}

@@ -1,0 +1,51 @@
+#randomDiv{
+    width:100%;
+    height:15vh;
+}
+body{
+    background-image: url('images/kaminoRory.jpeg');
+    background-size: cover;
+}
+h2{
+    text-align:center;
+    color:black;
+}
+
+#logindiv {
+    margin: 0 auto;
+    background-color: lightslategrey;
+    opacity:0.5;
+    width: 30%;
+    height: 50%;
+    vertical-align: middle;
+    padding-top: 20px;
+    text-align:center;
+}
+
+.input {
+    width: 200px;
+}
+
+#submit {
+    width: 90px;
+    height: 40px;
+    font-size:1em;
+    border-radius:2px;
+}
+
+/*<section>
+    <body>
+        <div id="randomDiv"></div>
+        <div id="logindiv">
+            <h2>Kamino Restaurant Login</h2>
+            <br/>
+            <br/>
+            <input type='text' placeholder='Email' class='input' id='email'/><br/>
+            <br/>
+            <input type='text' placeholder='Password' class='input' id='password'/><br/>
+            <br/>
+            <div id ='error_msg'></div>
+            <button id="submit" routerLink='/kitchen' routerLinkActive='active'>LOG IN</button>
+        </div>
+    </body>
+</section>*/
