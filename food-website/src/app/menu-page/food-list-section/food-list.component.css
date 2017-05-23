@@ -1,0 +1,27 @@
+:host .item-image {
+  position: relative;
+  height: 300px;
+  background-size: cover;
+}
+
+:host .desc-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 10px;
+}
+
+:host .title {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+}
+
+:host .btn-product{
+  width: 100%;
+}
