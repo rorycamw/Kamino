@@ -14,6 +14,9 @@ import { AboutPageComponent } from './about-page/about-page.component';
 //Front page components
 import { FrontPageComponent } from './front-page/front.component';
 import { AdOneComponent } from './front-page/ads/first/adone.component';
+import { CarouselComponent } from './front-page/ads/carousel/carousel.component';
+import { VideoOneComponent } from './front-page/ads/vids/vid1/vid1.component';
+import { VideoTwoComponent } from './front-page/ads/vids/vid2/vid2.component';
 
 //Kitchen page components
 import { KitchenPageComponent } from './kitchen-page/kitchen-page.component';
@@ -53,7 +56,10 @@ import { FoodListComponent } from './menu-page/food-list-section/food-list.compo
     LoginPageComponent,
     FrontPageComponent,
     ReceiptPageComponent,
-    AdOneComponent
+    AdOneComponent,
+    CarouselComponent,
+    VideoOneComponent,
+    VideoTwoComponent
   ],
   providers: [  ],
   bootstrap: [
