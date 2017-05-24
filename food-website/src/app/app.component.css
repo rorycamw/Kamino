@@ -1,15 +1,11 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+
 .menuBarItems{
     display: inline-block;
 }
 img {
     width: 200px;
     height: 200px;
-}
-h3{
-    font-size: 2em;
-    flex: 1;
-    font-family: "Inknut Antiqua";
-    color: #bdc2c5;
 }
 
 .navbar {
