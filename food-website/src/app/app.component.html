@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <nav class="navbar navbar-default">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -24,12 +25,12 @@
                 <li><a *ngIf="isAuth" routerLink='/logout' routerLinkActive='active'>Logout</a></li>
                 <li><a *ngIf="!isAuth" routerLink='/login' routerLinkActive='active'>Login</a></li>
             </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+        </div>
+    </div>
 </nav>
 
 <div>
     <router-outlet></router-outlet>
 </div>
 
-<sd-bar></sd-bar>
+

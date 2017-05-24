@@ -4063,21 +4063,6 @@ tbody.collapse.in {
   overflow: hidden;
   background-color: #e5e5e5;
 }
-.dropdown-menu > li > a {
-  display: block;
-  padding: 3px 20px;
-  clear: both;
-  font-weight: normal;
-  line-height: 1.42857;
-  color: #333333;
-  white-space: nowrap;
-}
-
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-  text-decoration: none;
-  color: #262626;
-  background-color: #f5f5f5;
-}
 
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
   color: #fff;
@@ -8250,5 +8235,3 @@ a > img.fh5co-align-center {
   margin-left: auto;
   margin-right: auto;
 }
-
-/*# sourceMappingURL=style.css.map */
