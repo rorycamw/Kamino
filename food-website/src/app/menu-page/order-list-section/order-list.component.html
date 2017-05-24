@@ -1,0 +1,60 @@
+<div class="thumbnail" *ngIf="namefoodArray.length">
+  <table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th class="text-center">Price</th>
+            <th class="text-center">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let info of namefoodArray">
+        <td class="col-sm-8 col-md-6">
+          <div class="media">
+            <div class="thumbnail pull-left">
+              <img class="media-object" src="{{ info.food.picture }}">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">
+                  {{ info.food.name }}
+                </h4>
+            </div>
+          </div>
+        </td>
+
+        <td class="col-sm-1 col-md-1 text-center">
+          <strong>{{ info.count }}</strong>
+        </td>
+
+        <td class="col-sm-1 col-md-1 text-center">
+          <strong>${{ info.food.price }}</strong>
+        </td>
+
+        <td class="col-sm-1 col-md-1 text-center">
+          <strong>${{ info.food.price * info.count }}</strong>
+        </td>
+      </tr>
+
+      <tr>
+        <td>   </td>
+        <td>   </td>
+        <td class="text-center"><h3>Total</h3></td>
+        <td class="text-center">
+          <h3><strong>${{sum}}</strong></h3>
+        </td>
+      </tr>
+
+      <tr>
+        <td>   </td>
+        <td>   </td>
+        <td>   </td>
+        <td class="text-center">
+          <button type="button" class="btn btn-success" (click)="processOrder()">
+            <span class="glyphicon glyphicon-shopping-cart"></span> Make an order
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
