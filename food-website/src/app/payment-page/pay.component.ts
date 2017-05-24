@@ -22,8 +22,8 @@ export class PaymentComponent implements OnInit {
                 protected sessionService: SessionService) {
 
         this.form = new FormGroup({
-            firstName: new FormControl('', [Validators.minLength(4), Validators.required]),
-            lastName: new FormControl('', [Validators.minLength(4), Validators.required]),
+            firstName: new FormControl('', [Validators.minLength(1), Validators.required]),
+            lastName: new FormControl('', [Validators.minLength(1), Validators.required]),
             address: new FormControl('', [Validators.minLength(4), Validators.required]),
             mail: new FormControl('', [Validators.minLength(4), Validators.required]),
             phone: new FormControl('', [Validators.minLength(6), Validators.required]),
