@@ -468,8 +468,7 @@ footer {
   height: 200px;
   width: 200px;
   margin-top: 2em;
-  background: url("/food/p8.jpg") center center no-repeat;
-  background: url("/food/p8.jpg") center center no-repeat;
+  background: url("assets/food/p8.jpg") center center no-repeat;
   background-size: 206px;
 }
 
@@ -733,7 +732,7 @@ img:hover {
 
 /* Change background image here! */
 header {
-  background-image: url(/food/p5.jpg);
+  background-image: url("assets/food/p5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }

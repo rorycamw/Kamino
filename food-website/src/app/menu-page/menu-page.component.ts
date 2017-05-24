@@ -36,28 +36,6 @@ export class MenuPageComponent {
         this.sessionService.setCurrentOrder(orderList);
         this.router.navigateByUrl('/payment');
     }
-
-    // processTheOrder(orderList: OrderPosition[]) {
-    //     console.log(orderList);
-    //     if (!this.loading) {
-    //         this.loading = true;
-    //         this.apiService.order(orderList).finally(() => {
-    //             this.loading = false;
-    //         }).subscribe(
-    //             (response) => {
-    //                 if (response) {
-    //                     if (this.orderList) {
-    //                         this.orderList.clear();
-    //                     }
-    //                 }
-    //             },
-    //             (error) => {
-    //                 console.log(error);
-    //             }
-    //         );
-    //     }
-    // }
-
 }
 
 export const foodItems: Array<Food> = [
@@ -130,6 +108,62 @@ export const foodItems: Array<Food> = [
         id: 10,
         name: "Octowhale Egg Drop Soup",
         picture: "assets/sides/octowhaleeggdropsoup.png",
+        price: 3500,
+        category: "",
+        description: ""
+    }, {
+        id: 11,
+        name: "Aiwha Flavored Icecream",
+        picture: "assets/dessert/aiwhaflavoredicecream.png",
+        price: 3500,
+        category: "",
+        description: ""
+    }, {
+        id: 12,
+        name: "Kamino Sponge Worm Short Cakes",
+        picture: "assets/dessert/kaminospongewormshortcakes.png",
+        price: 3500,
+        category: "",
+        description: ""
+    }, {
+        id: 13,
+        name: "Seafood Lava Cake",
+        picture: "assets/dessert/seafoodlavacake.png",
+        price: 3500,
+        category: "",
+        description: ""
+    }, {
+        id: 14,
+        name: "Corellian Brandy",
+        picture: "assets/drinks/corellianbrandy.png",
+        price: 3500,
+        category: "",
+        description: ""
+    }, {
+        id: 15,
+        name: "Naboo Sludge",
+        picture: "assets/drinks/naboosludge.png",
+        price: 3500,
+        category: "",
+        description: ""
+    }, {
+        id: 16,
+        name: "Kashyyykan Bitter Berry Beer",
+        picture: "assets/drinks/kashyyykanbitterberrybeer.png",
+        price: 3500,
+        category: "",
+        description: ""
+    }, {
+        id: 17,
+        name: "Ollopom Salad",
+        picture: "assets/sides/ollopomsalad.png",
+        price: 3500,
+        category: "",
+        description: ""
+    }, {
+        id: 18,
+        name: "Popcorn Ewoks",
+        picture: "assets/sides/popcornewoks.png",
         price: 3500,
         category: "",
         description: ""
