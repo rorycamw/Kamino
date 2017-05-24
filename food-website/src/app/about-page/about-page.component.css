@@ -274,7 +274,7 @@ h2 {
 
 p {
   line-height: 1.5;
-  font-size: 1.05em;
+  font-size: 1.3em;
   color: #333;
 }
 
@@ -475,6 +475,7 @@ footer {
 #about-para {
   margin-top: 1em;
   font-weight: 300;
+  font-size: 30px;
 }
 
 .flex {
@@ -746,7 +747,7 @@ header {
 
 @media (min-width: 63em) {
   header {
-    height: 100vh;
+    height: 70vh;
     background-attachment: fixed;
   }
 }
