@@ -11,28 +11,27 @@ System.register(['@angular/core'], function(exports_1, context_1) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
     var core_1;
-    var FrontPageComponent;
+    var TwoComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             }],
         execute: function() {
-            FrontPageComponent = (function () {
-                function FrontPageComponent() {
+            TwoComponent = (function () {
+                function TwoComponent() {
                 }
-                FrontPageComponent = __decorate([
+                TwoComponent = __decorate([
                     core_1.Component({
-                        selector: 'front-page',
-                        templateUrl: 'app/front-page/front.component.html',
-                        styleUrls: ['app/front-page/front.component.css']
+                        selector: 'vid2-page',
+                        templateUrl: 'app/front-page//ads/two/two.component.html'
                     }), 
                     __metadata('design:paramtypes', [])
-                ], FrontPageComponent);
-                return FrontPageComponent;
+                ], TwoComponent);
+                return TwoComponent;
             }());
-            exports_1("FrontPageComponent", FrontPageComponent);
+            exports_1("TwoComponent", TwoComponent);
         }
     }
 });
-//# sourceMappingURL=front.component.js.map
+//# sourceMappingURL=two.component.js.map
