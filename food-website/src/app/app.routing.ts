@@ -14,6 +14,8 @@ import { OneComponent } from './front-page/ads/one/one.component';
 import { TwoComponent } from './front-page/ads/two/two.component';
 import { ThreeComponent } from './front-page/ads/three/three.component';
 import { FourComponent } from './front-page/ads/four/four.component';
+import { FiveComponent } from './front-page/ads/five/five.component';
+import { SixComponent } from './front-page/ads/six/six.component';
 
 const appRoutes: Routes = [
     {path: '', component: FrontPageComponent},
@@ -27,8 +29,10 @@ const appRoutes: Routes = [
     {path: 'logout', component: LoginPageComponent},
     {path: 'lego', component:OneComponent},
     {path: 'rory', component:TwoComponent},
-    {path: 'badger', component:ThreeComponent},
-    {path: 'narwhals', component:FourComponent}
+    {path: 'nyan', component:ThreeComponent},
+    {path: 'narwhals', component:FourComponent},
+    {path: 'ppap', component:FiveComponent},
+    {path: 'troll', component:SixComponent}
 ];
 
 export const Routing = RouterModule.forRoot(appRoutes);
