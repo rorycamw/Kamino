@@ -17,6 +17,8 @@ import { OneComponent } from './front-page/ads/one/one.component';
 import { TwoComponent } from './front-page/ads/two/two.component';
 import { ThreeComponent } from './front-page/ads/three/three.component';
 import { FourComponent } from './front-page/ads/four/four.component';
+import { FiveComponent } from './front-page/ads/five/five.component';
+import { SixComponent } from './front-page/ads/six/six.component';
 
 //Kitchen page components
 import {KitchenPageComponent} from './kitchen-page/kitchen-page.component';
@@ -73,7 +75,9 @@ export function sessionServiceFactory(win: Window) {
         OneComponent,
         TwoComponent,
         ThreeComponent,
-        FourComponent
+        FourComponent,
+        FiveComponent,
+        SixComponent
     ],
     providers: [
         ApiService,
