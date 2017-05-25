@@ -1,0 +1,81 @@
+/*********************************************************************************/
+/* Body                                                                          */
+/*********************************************************************************/
+
+body {
+    margin: 0px;
+    padding: 0px;
+	background: #180E0B;
+	font-family: 'Raleway', sans-serif;
+	font-size: 11pt;
+	color: #000000;
+}
+
+
+/*********************************************************************************/
+/* Top Div                                                                       */
+/*********************************************************************************/
+#topDiv{
+	width:100vw;
+	height:60vh;
+	background-color:#fff;
+}
+.topDivContainer{
+	width:25vw;
+	height:60vh;
+	float:left;
+	text-align:center;
+}
+.promotional {
+    width:12.5vw;
+    height:30vh;
+}
+.promotional-section{
+	margin-top:15%;
+}
+
+/*********************************************************************************/
+/* Bottom Div                                                                    */
+/*********************************************************************************/
+
+#bottomDiv{
+	width:100vw;
+	height:60vh;
+	background-color:#fff;
+}
+.botDiv{
+	width:50vw;
+	height:60vh;
+	float:left;
+	text-align:center;
+}
+.botDivRight{
+	width:50vw;
+	height:30vh;
+	text-align:center;
+}
+
+.foot {
+  text-align: center;
+  color: white;
+}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+footer {
+  background-color: #7a7f82;
+  height: 100px;
+}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+#banner{
+	position: relative;
+	background: #333 url(../assets/rodney/creatinekamino.jpg) no-repeat center;
+	background-size: cover;
+	padding:20em 0em;
+}
