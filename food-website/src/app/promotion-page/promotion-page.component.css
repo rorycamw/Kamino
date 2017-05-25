@@ -1934,6 +1934,7 @@ pre code {
   margin-left: auto;
   padding-left: 25px;
   padding-right: 25px;
+  height: 300px;
 }
 .container:before, .container:after {
   content: " ";
@@ -7419,6 +7420,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .fh5co-intro {
   padding: 7em 0;
+  background:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("http://www.stjeanetfils.com/z/restaurant-banner.png") no-repeat fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100vw 100vh;
 }
 @media screen and (max-width: 768px) {
   .fh5co-intro {
@@ -8234,4 +8240,63 @@ a > img.fh5co-align-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Arvo:700);
+@import url(http://fonts.googleapis.com/css?family=Seaweed+Script);
+
+.plate {
+  width: 70vw;
+  margin: 10% auto;
+  position: absolute;
+  top: 10px;
+  margin-left: 10px;
+}
+.shadow {
+  color: #fff;
+  font-family: Arvo;
+  font-weight: bold;
+  text-shadow:
+    -3px -3px 0 #222,
+    3px -3px 0 #222,
+    -3px 3px 0 #222,
+    3px 3px 0 #222,
+    4px 4px 0 #fff,
+    5px 5px 0 #fff,
+    6px 6px 0 #fff,
+    7px 7px 0 #fff;
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin:0;
+  text-align: center;
+}
+.script {
+  font-family: "Seaweed Script";
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  margin:0;
+}
+.script span {
+  background-color: #222;
+  padding: 0 0.3em;
+}
+.script:before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index:-1;
+  top: 0%;
+  width: 100%;
+  border-bottom: 3px solid #fff;
+}
+.text2 {
+  font-size: 150px;
+}
+.text3 {
+  font-size: 100px;
 }

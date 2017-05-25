@@ -1,3 +1,7 @@
+section{
+    background-image:url('assets/rodney/kaminoRory.jpeg');
+    background-size:cover;
+}
 #logo {
     float: left;
 }
